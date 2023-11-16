@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members Dashboard</title>
+
+<style>
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 25px;
+        
+    }
+    
+    .process-section {
+        display: inline;
+        gap: 15px;
+        margin-bottom: 20px;
+
+    }
+    button {
+        margin-top: 20px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="main">
+
+            <header>
+                <h3>Available Unit/shares</h3>
+        
+        </header>
+        
+        
+        <section> 
+            
+            <p class="shares"></p>
+            
+            <p>Please Type or Input the number of units you want to Purchase below:</p>
+            
+            <input type="text/number" name='number'  placeholder="Number of units"  id="no-of-unit">
+            
+            <p>Multiplied(*) by $25 each</p>
+            
+            <div class="process-section">
+                <p class="amount"></p>
+                <button class="btn">Process</button>
+            </div>
+            
+            <div>
+                <button>Proceed To Pay</button>
+            </div>
+            
+        </section>
+    </div>
+    
+    <script src="crowd.js">
+        
+    </script>
+</body>
+</html>
